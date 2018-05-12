@@ -11,5 +11,5 @@ Schlecht. Attres arbeitet nicht mit mathematischen Funktionen, sondern mit den D
 
 ## Usage
 Importiere Attres mit `import Attres` oder wie auch immer du die Python-Datei nach dem Download nennst.
-Danach kannst du mit `attres.getAddress(longitude, latitude)` nach der Adresse zu diesem Punkt fragen. 
+Danach kannst du mit `attres.getAddress(longitude, latitude)` nach der Adresse zu diesem Punkt fragen. *(Falls, wie bei mir, immer wieder verwirrung darüber besteht, was was ist: So, wie die Koordinaten im Adressbereich von Google Maps gereiht sind, ist es korrekt)*
 Als Antwort erhäkst du einen String, die Adresse enthät, und außerdem den Namen des Objekts, wenn es einen hat. Der zweite übergabeparameter ist die genauigkeit. Sie gibt an, in welchem Umkreis sich die Adresse befinden musste, um angenommen zu werden. Werte ab 70 sind nicht mehr als zuverlässig einzuschätzen.
